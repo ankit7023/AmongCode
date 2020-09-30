@@ -113,9 +113,10 @@ void delPos()
     if (pos==1)     delBeg();
     else if (pos>1 & pos<=count)
     {
-        int i;
+        int t;
         ptr=head;
-        for(i=1;i<pos;i++)
+        for(t=1;t<pos;t
+		++)
         {
             temp=ptr;
             ptr=ptr->link;
